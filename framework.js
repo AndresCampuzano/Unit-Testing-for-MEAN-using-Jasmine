@@ -16,3 +16,8 @@ function expect(actual) {
       console.error(`❌ ${title}`);
     }
   }
+
+  module.exports = {
+    expect,
+    it
+  }
